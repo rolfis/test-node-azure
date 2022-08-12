@@ -1,7 +1,6 @@
 'use strict';
 
-import pkg from './package.json';
-
+const pkg = require('./package.json');
 const express = require('express');
 const helmet = require('helmet');
 const port = process.env.PORT || 3000;
