@@ -3,6 +3,7 @@
 const pkg = require('./package.json');
 const express = require('express');
 const helmet = require('helmet');
+const bodyParser = require('body-parser');
 const port = process.env.PORT || 3000;
 
 const NODE_MAJOR_VERSION = process.versions.node.split('.')[0];
