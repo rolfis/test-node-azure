@@ -36,7 +36,7 @@ app.get('/', async (request, response) => {
     });
 });
 
-app.listen(port, () => log.info(`[Main] Application listening on port ${port}.`));
+app.listen(port, () => console.log(`[Main] Application listening on port ${port}.`));
 
 process.on('uncaughtException', (err) => {
     console.error('[Main] There was an uncaught error', err);

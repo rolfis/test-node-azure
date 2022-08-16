@@ -1,7 +1,6 @@
 {
   "name": "test-node-azure",
   "version": "1.0",
-  "packageManager": "yarn@3.2.2",
   "main": "app.js",
   "dependencies": {
     "bcrypt": "^5.0.1",
