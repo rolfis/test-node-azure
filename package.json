@@ -1,10 +1,9 @@
 {
   "name": "test-node-azure",
-  "version": "1.0",
+  "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js",
-    "start": "node app.js"
+    "dev": "nodemon app.js"
   },
   "nodemonConfig": {
     "ignore": [
